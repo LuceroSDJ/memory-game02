@@ -6,7 +6,7 @@ const cardImages = [
   {"src": process.env.PUBLIC_URL + "/images/img1.jpeg", matched: false},
   {"src": process.env.PUBLIC_URL + "/images/img2.jpeg", matched: false},
   {"src": process.env.PUBLIC_URL + "/images/img3.jpeg", matched: false},
-  {"src": process.env.PUBLIC_URL + "/images/img4.jpeg", matched: false},
+  {"src": process.env.PUBLIC_URL + "/images/img8.jpeg", matched: false},
   {"src": process.env.PUBLIC_URL + "/images/img5.jpeg", matched: false},
   {"src": process.env.PUBLIC_URL + "/images/img7.jpeg", matched: false}
 ]
