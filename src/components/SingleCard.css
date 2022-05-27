@@ -1,0 +1,41 @@
+.card {
+    position: relative;
+}
+/* position: relative places an element relative to its current position 
+without changing the layout around it */
+.card img {
+    width: 100%;
+    display: block;
+    border: 2px solid rgb(60, 122, 173);
+    border-radius: 6px;
+    /* height: auto; */
+}
+
+/* display: block */
+/* An element that has the display property set to block 
+starts on a new line and takes up the available screen width. 
+You can specify the width and height properties for such elements. 
+Examples of elements that are at block-level by default are 
+<div> , <section> , <p> , and lots more. */
+
+/* IMG elements are inline */
+
+/* hide front card  */
+.card .front {
+    transform: rotateY(90deg);
+    transition: all ease-in 0.2s;
+    position: absolute;
+}
+.flipped .front {
+    transform: rotateY(0deg);
+    transition-delay: 0.2s;
+}
+
+.card .back {
+    transition: all ease-in 0.2s;
+    transition-delay: 0.2s;
+}
+.flipped .back {
+    transform: rotateY(90deg);
+    transition-delay: 0s;
+}
